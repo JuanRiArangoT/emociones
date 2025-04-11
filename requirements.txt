@@ -1,0 +1,18 @@
+# Librerías base
+tensorflow==2.10.0          # Incluye Keras
+opencv-python==4.8.0.76     # Para procesamiento de imágenes y video
+numpy==1.24.4               # Manipulación de arrays
+
+# Procesamiento de datos y aumento
+scikit-learn==1.3.0         # Para class_weight y métricas
+Pillow==10.0.0              # Manejo de imágenes
+
+# Detección facial (elige una opción)
+opencv-contrib-python==4.8.0.76  # Para Haar Cascades (más rápido)
+mtcnn==0.1.1                # Alternativa más precisa (opcional)
+
+# Visualización (opcional)
+matplotlib==3.7.2           # Para gráficos de entrenamiento
+
+# Optimización (opcional si usas TFLite)
+tensorflow-probability==0.20.1  # Para modelos avanzados
